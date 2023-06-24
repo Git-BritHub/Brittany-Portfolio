@@ -1,0 +1,140 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+header {
+    /* Not sure on padding size yet, will revisit */
+    padding: px;
+    /* Not sure on font-family yet, will revisit */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(50, 50, 93);
+    color:white;
+}
+
+header h1 {
+    display:inline-block;
+    /* Not sure on font-size yet, will revisit */
+    font-size: ;
+}
+
+header nav {
+    /* Not sure what will be best to do for padding, margin, float, and font-size, will revisit after playing around in webdev */
+    padding-top: ;
+    margin-right: ;
+    float: ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: ;
+}
+
+header nav ul {
+    /* Will revisit */
+}
+
+header nav ul li {
+    /* Not sure on margin placing or px yet, will revisit*/
+    display: inline-block;
+    margin-left: px;
+}
+
+a {
+    /* Not sure on color or text-decoration yet, will revisit */
+    color:white;
+    text-decoration: ;
+}
+
+p {
+    /* Not sure on font-size yet, will revisit */
+    font-size: px;
+}
+
+.background {
+    /* Need to still add height, width, and margin. */
+    height: px;
+    width: ;
+    margin: px;
+    /* Need to add name and directory of image once I have chosen one */
+    background-image: url("../images/");
+    background-size: cover;
+    background-position: center;
+}
+
+.My-Pic {
+    /* Need to add everything in .My-Pic, may be better to put image in index.html. Will revisit */
+    height: px;
+    width: ;
+    margin: px;
+    background-image: url("../images/");
+    background-position: ;
+}
+
+.float-left {
+    /* Need to add margin, not sure if class will situate both rows correctly. */
+    float: left;
+    margin: ;
+}
+
+.float-right {
+    /* Need to add margin, not sure if class will situate both rows correctly. */
+    float: right;
+    margin: ;
+}
+
+.content {
+    /* Not sure what to do for width and margin-left px size yet, will revisit. */
+    width: ;
+    display: inline-block;
+    margin-left: px;
+}
+
+.content-articles {
+    /* Not sure what to do for margin, padding, and height yet. Will revisit. */
+    margin: ;
+    padding: ;
+    height: ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:aliceblue;
+    color:rgb(50, 50, 93);
+}
+
+.content-articles img {
+    /* Not sure on height, will revisit. */
+    max-height: px;
+}
+
+.content-articles h2 {
+    /* Not sure on height or pixals, will revisit. */
+    margin: px;
+    font-size: px;
+}
+
+.Project1 {
+    /* Not sure on anything in this section, I want this one to be the biggest pic on page. Will revisit. */
+    max-height: ;
+    display: ;
+    margin: ;
+    max-width: ;
+}
+
+.Projects-Row1 {
+    /* Not sure on anything in this section, I want row 1 to only have 2 pictures side by side that are the same. Will revisit. */
+    max-height: ;
+    display: ;
+    margin: ;
+    max-width: ;
+}
+
+.Projects-Row2 {
+    /* Not sure on anything in this section, I want row 2 to also have only 2 pictures side by side. Will revisit */
+    max-height: ;
+    display: ;
+    margin: ;
+    max-width: ;
+}
+
+/* I need to add @media and more advanced CSS elements so that pictures and text adjust accordingly with different screen sizes */
