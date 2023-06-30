@@ -28,49 +28,61 @@
     <section class="background"></section>
     <section class="My-Pic"></section>
     <!-- Depending on how I choose to arrange article titles, I may need to do aside class below instead of section class-->
-    <section class="content">
-        <article id="About-Me" class="content-articles">
-            <h2>About Me</h2>
+    <main class="content">
+        <section id="About-Me" class="content-articles">
+            <div class="left">
+                <h2>About Me</h2>
+            </div>
             <!-- Write up "About Me" section and replace what's below in <p> -->
-            <p>I am the awesome, hire me. Hire me please? There are things about me. Interesting things, I swear. I love coding. blah blah blah blah.</p>
-        </article>
+            <div class="right">
+                <p>I am the awesome, hire me. Hire me please? There are things about me. Interesting things, I swear. I love coding. blah blah blah blah.</p>
+            </div>
+        </section>
         <!-- My goal for the 'Work' section is to have 1 bigger image that has working link to lead to other project url and 4 smaller ones that do the same. 
             Most likely will need to refactor, not sure if it will work, may need to delete float-lefts and rights and make id's for each image/link instead of classes.
             I will need to also change the name of each Project number to actual name of project -->
-        <article id="Work" class="content-articles">
-            <h2>Work</h2>
-            <article class="Project1">
-                <!-- Rename Project1,2,3,4,and 5 for img source and add description of pic in alts for each image I choose.-->
-                <img src="./assets/images/project1.jpg" alt="Description of pic here"/>
-                <a href="https://example.com">Project1</a>
-            </article>
-            <article class="Projects-Row1">
-                <img src="./assets/images/project2.jpg" alt="Description of pic here" class="float-left"/>
-                <a href="https://example.com">Project2</a>
-            </article>
-            <article class="Projects-Row1">
-                <img src="./assets/images/project3.jpg" alt="Description of pic here" class="float-right"/>
-                <a href="https://example.com">Project3</a>
-            </article>
-            <article class="Projects-Row2">
-                <img src="./assets/images/project4.jpg" alt="Description of pic here" class="float-left"/>
-                <a href="https://example.com">Project4</a>
-            </article>
-            <article class="Projects-Row2">
-                <img src="./assets/images/project5.jpg" alt="Description of pic here" class="float-right"/>
-                <a href="https://example.com">Project5</a>
-            </article>
-        </article>
-        <article id="Contact-Me" class="content-articles">
-            <h2>Contact Me</h2>
-            <address>
-                <a href="mailto:brittanysapp@gmail.com">Email</a>
-                <a href="tel:+18087855685">808.785.5685</a>
-                <a href="git-brithub.github.io">GitHub</a>
-                <!-- I need to create a LinkedIn account and add url below -->
-                <a href="http://www.somedomain.com/contact">LinkedIn</a>
-            </address>
-        </article>
-    </section>
+        <section id="Work" class="content-articles">
+            <div class="left">
+                <h2>Work</h2>
+            </div>
+            <div class="right">
+                <article class="Project1">
+                    <!-- Rename Project1,2,3,4,and 5 for img source and add description of pic in alts for each image I choose.-->
+                    <img src="./assets/images/ex.jpeg" alt="Description of pic here"/>
+                    <a href="https://example.com">Project1</a>
+                </article>
+                <article class="Projects-Row1">
+                    <img src="./assets/images/ex.jpeg" alt="Description of pic here" class="float-left"/>
+                    <a href="https://example.com">Project2</a>
+                </article>
+                <article class="Projects-Row1">
+                    <img src="./assets/images/ex.jpeg" alt="Description of pic here" class="float-right"/>
+                    <a href="https://example.com">Project3</a>
+                </article>
+                <article class="Projects-Row2">
+                    <img src="./assets/images/ex.jpeg" alt="Description of pic here" class="float-left"/>
+                    <a href="https://example.com">Project4</a>
+                </article>
+                <article class="Projects-Row2">
+                    <img src="./assets/images/ex.jpeg" alt="Description of pic here" class="float-right"/>
+                    <a href="https://example.com">Project5</a>
+                </article>
+            </div>
+        </section>
+        <section id="Contact-Me" class="content-articles">
+            <div class="left">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="right">
+                <address>
+                    <a href="mailto:brittanysapp@gmail.com">Email</a>
+                    <a href="tel:+18087855685">808.785.5685</a>
+                    <a href="git-brithub.github.io">GitHub</a>
+                    <!-- I need to create a LinkedIn account and add url below -->
+                    <a href="http://www.somedomain.com/contact">LinkedIn</a>
+                </address>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
