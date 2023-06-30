@@ -2,6 +2,7 @@
     box-sizing:border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Numans', sans-serif;
 }
 
 body {
@@ -12,24 +13,78 @@ header {
     /* Not sure on padding size yet, will revisit */
     padding: px;
     /* Not sure on font-family yet, will revisit */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Numans', sans-serif;
     background-color:rgb(50, 50, 93);
     color:white;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav ul li {
     /* Not sure on margin placing or px yet, will revisit*/
     display: inline-block;
-    margin-left: px;
+    margin: 10px 15px 0 0 ;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: white;
 }
 
 #About-Me,
 #Work,
 #Contact-Me {
     display: flex;
+    margin: 15px 0;
 }
 
 .left {
     width: 20%;
     text-align: right;
+}
+
+.left h2 {
+    margin: 0 15px 0 0;
+}
+
+.right {
+    width: 80%;
+    padding: 0 25px 0 25px;
+    border-left: 3px solid rgb(50, 50, 93);
+}
+
+.project a  {
+    position: relative;
+}
+
+.project p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+    top: 0;
+    background: rgba(255, 255, 255, 0.393);
+}
+
+.projects {
+    display: flex;
+    
+}
+
+.projects .grid {
+ display: grid;
+ grid-gap: 5% 0;
+ grid-template-columns: auto auto;
+ margin: 0 auto;
+}
+
+.projects .grid article {
+    margin: 0 auto;
+}
+
+.projects .grid article img{
+    width: 100%;
+}
+
+.projects .grid article {
+    width: 90%;
 }
