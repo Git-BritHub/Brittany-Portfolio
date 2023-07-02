@@ -44,21 +44,34 @@ color: white;
     object-fit:cover;
     height: 130px;
     width: 2000px;
-    z-index: 1;
 }
 
-.my-pic {
+#About-Me .me {
+    width: 80%;
     display:flex;
-    position:absolute;
+}
+
+#About-Me .me img {
+    display:flex;
     left: 0;
-    z-index: 2;
+    right: 0;
     height: 120px;
     width: 180px;
 }
 
-.my-pic img {
+#About-Me .me img {
     object-fit:cover;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 0px;
+}
+
+#About-Me p {
+    color:rgb(50, 50, 93);
+}
+
+.right {
+    width: 80%;
+    padding: 0 25px 0 25px;
+    border-left: 3px solid rgb(50, 50, 93);
 }
 
 .left {
@@ -69,16 +82,6 @@ color: white;
 .left h2 {
     margin: 0 15px 0 0;
     color: rgb(50, 50, 93);
-}
-
-.right {
-    width: 80%;
-    padding: 0 25px 0 25px;
-    border-left: 3px solid rgb(50, 50, 93);
-}
-
-#About-Me .right p {
-    color:rgb(50, 50, 93);
 }
 
 #contacts {
