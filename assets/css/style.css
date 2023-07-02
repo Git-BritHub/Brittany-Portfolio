@@ -47,6 +47,12 @@ color: white;
     width: 2000px;
 }
 
+.my-pic {
+    display:flex;
+    height: 120px;
+    width: 200px;
+}
+
 .left {
     width: 20%;
     text-align: right;
