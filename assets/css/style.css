@@ -12,7 +12,6 @@ body {
 header {
     /* Not sure on padding size yet, will revisit */
     padding: px;
-    /* Not sure on font-family yet, will revisit */
     font-family: 'Numans', sans-serif;
     background-color:rgb(50, 50, 93);
     color:white;
@@ -21,9 +20,8 @@ header {
 }
 
 header nav ul li {
-    /* Not sure on margin placing or px yet, will revisit*/
     display: inline-block;
-    margin: 10px 15px 0 0 ;
+    margin: 10px 15px 0 0;
 }
 
 header nav ul li a {
@@ -45,12 +43,26 @@ color: white;
 
 .left h2 {
     margin: 0 15px 0 0;
+    color: rgb(50, 50, 93);
 }
 
 .right {
     width: 80%;
     padding: 0 25px 0 25px;
     border-left: 3px solid rgb(50, 50, 93);
+}
+
+#About-Me .right p {
+    color:rgb(50, 50, 93);
+}
+
+#contacts {
+    display:flex;
+    justify-content:space-between;
+}
+
+#contacts a {
+    color: rgb(50, 50, 93);
 }
 
 .project a  {
@@ -70,18 +82,18 @@ color: white;
 }
 
 .large article img {
-    height: 320.88px;
-    width: 299px;
+    height: 300px;
+    width: 300px;
     object-fit:cover;
+    margin: 0px 0px
 }
 
 .projects .grid {
  display: grid;
- /* grid-gap: 3% 0; */
- column-gap: 0px;
- row-gap: 3px;
+ column-gap: 5px;
+ row-gap: 5px;
  grid-template-columns: auto auto;
- margin: 0 auto;
+ margin: 0 0;
 }
 
 .projects .grid article {
@@ -89,9 +101,10 @@ color: white;
 }
 
 .projects .grid article img {
-    width: 100%;
-    height: 100%;
-    object-fit:fill
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    grid-template-columns: fit-content(100%) fit-content(100%) 1fr;
 }
 
 .projects .grid article {
