@@ -146,7 +146,25 @@ address {
         flex-direction: column;
     }
 
+    .large {
+        margin: 0 auto 0 auto;
+    }
+    .large article img {
+        width: 100%;
+    }
 
+    .grid article img {
+        width: 100%;
+    }
+    .projects .grid article {
+        width: 100%;
+    }
+    .grid {
+        justify-content: center;
+    }
+    .grid article {
+        width: 100%;
+    }
 }   
 
 @media screen and (max-width: 800px) {
@@ -193,6 +211,23 @@ address {
 }
 
 @media screen and (max-width: 628px) {
+    #About-Me .me {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    #About-Me .me img {
+        flex: 0 0 100%;
+    }
+
+    #About-Me .me p {
+        flex: 0 0 100%;
+    }
+
+    .large {
+        margin-bottom: 15px;
+    }
+    
     .grid {
         grid-template-columns: auto !important;
     }
@@ -200,5 +235,30 @@ address {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .projects .grid article img {
+        width: 225px;
+        height: 150px;
+        object-fit: cover;
+        grid-template-columns: fit-content(100%) fit-content(100%) 1fr;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .projects {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .large {
+        justify-content: center;
+        margin: 0 auto 5px auto;
+    }
+
+    .large article img {
+        width: 225px;
+        object-fit:cover;
+        margin: 0px 0px
     }
 }
