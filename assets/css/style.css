@@ -19,7 +19,7 @@ header {
 
 header nav ul li {
     display: inline-block;
-    margin: 10px 15px 0 0;
+    margin: 10px 15px 15px 0;
 }
 
 header nav ul li a {
@@ -31,7 +31,7 @@ color: white;
 #Work,
 #Contact-Me {
     display: flex;
-    margin: 15px 0;
+    margin: 55px 0;
 }
 
 .background {
@@ -102,15 +102,15 @@ color: white;
 }
 
 .large article img {
-    height: 300px;
-    width: 300px;
+    height: 310px;
+    width: 310px;
     object-fit:cover;
-    margin: 0px 0px
+    margin: 0px 0px;
 }
 
 .projects .grid {
     display: grid;
-    column-gap: 5px;
+    column-gap: 10px;
     row-gap: 5px;
     grid-template-columns: auto auto;
     margin: 0 0;
@@ -121,7 +121,7 @@ color: white;
 }
 
 .projects .grid article img {
-    width: 225px;
+    width: 231px;
     height: 150px;
     object-fit: cover;
     grid-template-columns: fit-content(100%) fit-content(100%) 1fr;
@@ -166,11 +166,17 @@ address {
     .grid article img {
         width: 100%;
     }
+    .projects .grid {
+        column-gap: 3px;
+        row-gap: 1px;
+    }
     .projects .grid article {
         width: 100%;
     }
+    
     .grid {
         justify-content: center;
+
     }
     .grid article {
         width: 100%;
@@ -244,7 +250,11 @@ address {
     .large {
         margin-bottom: 15px;
     }
-    
+
+    .projects .grid {
+        row-gap: 5px;
+    }
+
     .grid {
         grid-template-columns: auto !important;
     }
@@ -255,7 +265,7 @@ address {
     }
 
     .projects .grid article img {
-        width: 225px;
+        width: 231px;
         height: 150px;
         object-fit: cover;
         grid-template-columns: fit-content(100%) fit-content(100%) 1fr;
