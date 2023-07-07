@@ -10,6 +10,6 @@ For this CSS-focused project, I built and designed my own webpage to provide pot
 ## Credits
 Sought guidance and feedback from the U of U's software developer tutors and AskBCS agents.
 <br/>
-All HD background images for this project were obtained from pexels.com
+All HD background images for this project were obtained from pexels.com.
 <br/>
-Headshot of myself was taken and provided by Amanda Cooper
+Headshot of myself was taken and provided by Amanda Cooper.
