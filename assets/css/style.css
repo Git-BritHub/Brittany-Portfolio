@@ -92,9 +92,10 @@ color: white;
 .project p {
     position: absolute;
     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px black;
     z-index: 9999;
     top: 0;
-    background: rgba(255, 255, 255, 0.393);
+    background: rgba(252, 252, 252, 0.393);
 }
 
 .projects {
